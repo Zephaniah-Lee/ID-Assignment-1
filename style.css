@@ -1,4 +1,7 @@
 /* only doing pc for now */
+body{
+    font-family: 'Varela Round', sans-serif;
+}
 .landing_car1{
     display: flex;
     position: relative;

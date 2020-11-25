@@ -6,10 +6,27 @@
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
-        h1{
+        form{
+            position: relative;
             display: flex;
-            justify-content: center;
-            padding-right: 14%;
+            flex-direction: column;
+            margin-left: 34%;
+            margin-right: 44%;
+            border-bottom: 1px solid grey;
+            
+        }
+        h1{ 
+          text-align: center ;
+        }
+        input[type="submit"]{
+          width: 40%;
+          margin-bottom: 20px;
+        }
+        aside{
+          margin-left:34%;
+        }
+        aside p a{
+          text-decoration: none;
         }
     </style>
   </head>
@@ -22,10 +39,20 @@
       </ul>
       <p><a class="home" href="index.html">TESLA</a></p>
     </nav>
-    <header>
-        <h1>Create Accounttest</h1>
-    </header>
-    
-    
+    <form>
+      <h1>Create Account</h1>
+      <label for= "fname">First Name</label><br>
+      <input type= "text" name= "fname" required><br>
+      <label for= "lname">Last Name</label><br>
+      <input type= "text" name= "lname" required><br>
+      <label for= "email">Email Address</label><br>
+      <input type= "email" name= "email" required><br>
+      <label for= "password">Password</label><br>
+      <input type= "password" name= "password" required><br>
+      <input type="submit" value= "Create Account">
+    </form>
+    <aside>
+      <p>Already have an account? <a href= "login.html">Sign in</a></p>
+    </aside>
   </body>
 </html>
