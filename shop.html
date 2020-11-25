@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width">
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      div.cars{
+        display: flex;
+        flex-direction: column;
+      }
+      div section{
+        text-align: center;
+        width: 77%;
+        margin-left:4%;
+        display:flex;
+        flex-direction: column;
+      }
+      img.Model3{
+        height: 700px;
+      }
+      img.ModelY{
+        height: 500px;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -15,6 +34,29 @@
       </ul>
       <p><a class="home" href="index.html">TESLA</a></p>
     </nav>
+    <div class="cars">
+      <section>
+        <h1>Model S</h1>
+        <img class="ModelS" src="images/model_S.PNG" alt="Model S"><br>
+        <button onclick= "document.location= 'order_models.html'">Order Now</button>
+      </section>
+      <section>
+        <h1>Model X</h1>
+        <img class="ModelX" src="images/model_X.PNG" alt="Model X"><br>
+        <button onclick= "document.location= 'order_modelx.html'">Order Now</button>
+      </section>
+      <section>
+        <h1>Model 3</h1>
+        <img class="Model3" src="images/model_3.PNG" alt="Model 3"><br>
+        <button onclick= "document.location= 'order_model3.html'">Order Now</button>
+      </section>
+      <section>
+        <h1>Model Y</h1>
+        <img class="ModelY" src="images/model_Y.PNG" alt="Model Y"><br>
+        <button onclick= "document.location= 'order_modely.html'">Order Now</button>
+      </section>
+    </div>
+    
     
   </body>
 </html>
