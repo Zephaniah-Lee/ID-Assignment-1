@@ -10,7 +10,7 @@
             display:flex;
             position: relative;
             margin-left: 70px;
-            width: 30%;
+            width: 35%;
             flex-direction: column;
         }
         h1{
@@ -23,9 +23,6 @@
         label{
             position: relative;
             left: 30px; 
-        }
-        button{
-            width: 20%;
         }
         div.info{
             display: flex;
@@ -47,6 +44,9 @@
         div.info section{
             width: 250px;
         }
+        input[type="submit"]{
+            width:50%;
+        }
         
     </style>
   </head>
@@ -59,7 +59,7 @@
       </ul>
       <p><a class="home" href="index.html">TESLA</a></p>
     </nav>
-    <form>
+    <form action="payment.html">
         <h1>Order Model X</h1>
         <section>
             <p>Select your car</p>
@@ -137,7 +137,7 @@
                 No
             </label><br></br>
         </section>
-    <button onclick= "document.location= 'payment.html'">Proceed to Payment</button>
+    <input type="submit" value= "Proceed to Payment">
     </form>
     <div class= "info">
         <section>
