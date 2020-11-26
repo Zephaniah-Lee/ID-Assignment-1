@@ -109,6 +109,7 @@
         color: white;
     }
     p a.home{
+        z-index: 1;
         height: 10px;
         position: fixed;
         top: 6px;
