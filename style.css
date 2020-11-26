@@ -85,10 +85,11 @@
         width: 100%;
         top: 0px;
         background-color: black;
-        height: 5%;
+        height: 4%;
         position: fixed;
         display: flex;
         flex-direction: row;
+        z-index: 1; /* the height of the active box is kinda annoying */
     }
     li a {
         font-size: 20px;
@@ -108,11 +109,11 @@
         color: white;
     }
     p a.home{
+        height: 10px;
         position: fixed;
         top: 6px;
         left: 78%;
         font-size: 20px;
-        position: fixed;
         color: red;
         text-decoration: none;
     }
