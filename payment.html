@@ -6,34 +6,52 @@
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
-        form{
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            margin-left: 34%;
-            margin-right: 44%;
-        }
-        h1{ 
-          text-align: center ;
-        }
-        input[type="submit"]{
-          width: 20%;
-          margin-bottom: 20px;
-        }
-        aside{
-          margin-left:34%;
-          margin-right: 44%;
-        }
-        aside p a{
-          text-decoration: none;
-        }
-        input[type="submit"][value="Place Order"]{
-          width: 30%;
-        }
-        form b.Total{
-          font-size: 20px;
-          
-        }
+      @media screen and (max-width:1900px){
+          form{
+              position: relative;
+              display: flex;
+              flex-direction: column;
+              margin-left: 34%;
+              margin-right: 44%;
+          }
+          h1{ 
+            text-align: center ;
+          }
+          input[type="submit"]{
+            width: 20%;
+            margin-bottom: 20px;
+          }
+          input[type="submit"][value="Place Order"]{
+            width: 30%;
+          }
+          form b.Total{
+            font-size: 20px;
+          }
+      }
+
+      @media screen and (max-width:600px){
+          form{
+              position: relative;
+              display: flex;
+              flex-direction: column;
+              width: 70%;
+              margin-left: 15%;
+          }
+          h1{ 
+            text-align: center ;
+          }
+          input[type="submit"]{
+            width: 40%;
+            margin-bottom: 20px;
+          }
+          input[type="submit"][value="Place Order"]{
+            width: 40%;
+            font-size: 15px;
+          }
+          form b.Total{
+            font-size: 20px;
+          }
+      }
     </style>
   </head>
   <body>
