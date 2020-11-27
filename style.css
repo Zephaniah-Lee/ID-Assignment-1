@@ -58,6 +58,23 @@
         bottom: 0px;
         text-decoration: none;
     }
+    div.cars{
+        display: flex;
+        flex-direction: column;
+    }
+    div.cars section{
+        text-align: center;
+        width: 77%;
+        margin-left:4%;
+        display: flex;
+        flex-direction: column;
+    }
+    img.Model3{
+        height: 700px;
+    }
+    img.ModelY{
+        height: 500px;
+    }
 }
 @media screen and (max-width:600px){
     body{
@@ -117,6 +134,21 @@
         font-size: 20px;
         color: red;
         text-decoration: none;
+    }
+    div.cars{
+        display: flex;
+        flex-direction: column;
+        margin-left: -4%;
+    }
+    div.cars section{
+        text-align: center;
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+    }
+    div.cars section img{
+        width: 100%;
+        height: 100%;
     }
 
 }
