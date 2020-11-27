@@ -188,6 +188,29 @@
         text-decoration: none;
     }
 /* END OF LOGIN PORTION OF WEBSITE */
+/* START OF SIGNUP PORTION OF WEBSITE */
+    form.signup{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-left: 34%;
+        margin-right: 44%;
+        border-bottom: 1px solid grey;
+    }
+    form.signup h1{ 
+        text-align: center ;
+    }
+    form.signup input[type="submit"]{
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    aside.signup{
+        margin-left:34%;
+    }
+    aside.signup p a{
+        text-decoration: none;
+    }
+/* END OF SIGNUP PORTION OF WEBSITE */
 }
 @media screen and (max-width:600px){
     body{
@@ -384,6 +407,30 @@
     aside.login p a{
         text-decoration: none;
     }
-}
 /* END OF LOGIN PORTION OF WEBSITE */
-
+/* START OF LOGIN PORTION OF WEBSITE */
+    form.signup{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left:15%;
+        border-bottom: 1px solid grey;
+    }
+    form.signup h1{ 
+        text-align: center ;
+    }
+    form.signup input[type="submit"]{
+        width: 45%;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    aside.signup{
+        margin-left:15%;
+        font-size: 12px;
+    }
+    aside.signup p a{
+        text-decoration: none;
+    }
+/* END OF LOGIN PORTION OF WEBSITE */
+}
