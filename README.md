@@ -2,7 +2,7 @@
 
 This is a company revamp of a real company, Tesla. This project will only include 4 products from the tesla store page.
 The 4 products will be the Model S, Model X, Model 3 and Model Y.
-There will also be an account login and signup feature. However, it will not be fully implemented due to a lack of knowledge.
+There will also be an account login and signup feature. However, it is not fully implemented.
 
 ## Design Process
 This website is intended to people who intend to purchase a tesla car.
