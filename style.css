@@ -127,19 +127,44 @@
         margin-right: 44%;
     }
     form.payment h1{ 
-    text-align: center ;
+        text-align: center ;
     }
     form.payment input[type="submit"]{
-    width: 20%;
-    margin-bottom: 20px;
+        width: 20%;
+        margin-bottom: 20px;
     }
-    form.payment input[type="submit"][value="Place Order"]{
-    width: 30%;
+        form.payment input[type="submit"][value="Place Order"]{
+        width: 30%;
     }
     form.payment b.Total{
-    font-size: 20px;
+        font-size: 20px;
     }
 /* END OF PAYMENT PORTION OF WEBSITE */
+/* START OF RESET PASSWORD PORTION OF WEBSITE */
+    form.resetpassword{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-left: 34%;
+        margin-right: 44%;
+        border-bottom: 1px solid grey;
+    }
+    form.resetpassword h1{ 
+        text-align: center;
+    }
+    form.resetpassword input[type="submit"]{
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    aside.resetpassword{
+        margin-left: 34%;
+        width: 22%;
+        font-size: 13px;
+    }
+    aside.resetpassword p a{
+        text-decoration: none;
+    }
+/* END OF RESET PASSWORD PORTION OF WEBSITE */
 }
 @media screen and (max-width:600px){
     body{
@@ -272,18 +297,45 @@
         margin-left: 15%;
     }
     form.payment h1{ 
-    text-align: center ;
+        text-align: center ;
     }
     form.payment input[type="submit"]{
-    width: 40%;
-    margin-bottom: 20px;
+        width: 40%;
+        margin-bottom: 20px;
     }
     form.payment input[type="submit"][value="Place Order"]{
-    width: 40%;
-    font-size: 15px;
+        width: 40%;
+        font-size: 15px;
     }
     form.payment b.Total{
-    font-size: 20px;
+        font-size: 20px;
     }
 /* END OF PAYMENT PORTION OF WEBSITE */
+/* START OF RESET PASSWORD PORTION OF WEBSITE */
+    form.resetpassword{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left:15%;
+        border-bottom: 1px solid grey;
+    }
+    form.resetpassword h1{ 
+        text-align: center ;
+    }
+    form.resetpassword input[type="submit"]{
+        width: 48%;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    aside.resetpassword{
+        margin-left:15%;
+        font-size: 12px;
+        width: 70%;
+    }
+    aside.resetpassword p a{
+        text-decoration: none;
+    }
 }
+/* END OF RESET PASSWORD PORTION OF WEBSITE */
+
