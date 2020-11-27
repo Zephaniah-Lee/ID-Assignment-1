@@ -5,101 +5,8 @@
     <meta name="viewport" content="width=device-width">
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <style>
-        @media screen and (max-width:1900px){
-            form{
-                display:flex;
-                position: relative;
-                margin-left: 70px;
-                width: 35%;
-                flex-direction: column;
-            }
-            h1{
-                position: relative;
-                left: -40px;
-            }
-            p{
-                font-size: 22px;
-            }
-            label{
-                position: relative;
-                left: 30px; 
-            }
-            div.info{
-                display: flex;
-                position: relative;
-                margin-top: 6%;
-                margin-right: 20%;
-                width: 70%;
-            }
-            body{
-                display: flex;
-                flex-direction: row;
-            }
-            h2{
-                font-size: 22px;
-            }
-            div section p{
-                font-size: 15px;
-            }
-            div.info section{
-                width: 250px;
-            }
-            input[type="submit"]{
-                width:50%;
-            }
-        }
-        @media screen and (max-width:600px){
-            form{
-                display:flex;
-                position: relative;
-                margin-left: 10px;
-                margin-top: 20px;
-                width: 100%;
-                flex-direction: column; 
-            }
-            h1{
-                position: relative;
-                margin-left: 35px;
-                font-size: 22px;;
-            }
-            p{
-                font-size: 18px;
-            }
-            label{
-                position: relative;
-                left: 15px;
-                font-size: 12px;
-            }
-            div.info{
-                display: flex;
-                flex-direction: column;
-                position: relative;
-                margin-right: 2%;
-                margin-top: 20%;
-                width: 70%;
-            }
-            body{
-                display: flex;
-                flex-direction: row;
-            }
-            h2{
-                font-size: 15px;
-            }
-            div section p{
-                font-size: 9px;
-            }
-            div.info section{
-                width: 100%;
-            }
-            input[type="submit"]{
-                width:50%;
-                font-size: 10px;
-            }
-        }
-    </style>
   </head>
-  <body>
+  <body class="order">
     <nav>
       <ul class="nav">
         <li><a class="active" href="shop.html">Shop</a></li>
@@ -108,7 +15,7 @@
       </ul>
       <p><a class="home" href="index.html">TESLA</a></p>
     </nav>
-    <form action="payment.html">
+    <form class="order" action="payment.html">
         <h1>Order Model Y</h1>
         <section>
             <p>Select your car</p>
