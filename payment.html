@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <title>Payment Page</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
@@ -17,14 +18,14 @@
     </nav>
     <form class="payment">
       <h1>Payment</h1>
-      <label for= "fname">Name on Card</label><br>
+      <label>Name on Card</label><br>
       <input type= "text" name= "Name on Card" required><br>
-      <label for= "lname">Credit Card Number</label><br>
+      <label>Credit Card Number</label><br>
       <input type= "text" name= "Credit Card Number" placeholder = 1234-5678-1234-5678 pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" required><br>
-      <label for = "Expiration Date">Expiration Date</label><br>
+      <label>Expiration Date</label><br>
       <input type="text" name= "Expiration Date" placeholder = 12/34 pattern="[0-9]{2}/[0-9]{2}" required><br>
-      <label for = "CVV">CVV</label><br>
-      <input type="text" name= "CVV" placeholder = 123 pattern="[0-9]{3}" required><br></br>
+      <label>CVV</label><br>
+      <input type="text" name= "CVV" placeholder = 123 pattern="[0-9]{3}" required><br><br>
       <b class="Total">Total</b>
       <p>Purchase Price: $_______</p>
       <!-- I do not know the javascript needed to calculate the price. -->

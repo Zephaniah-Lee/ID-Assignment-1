@@ -87,7 +87,7 @@
         position: relative;
         left: -40px;
     }
-    form.order p{
+    form.order h2{
         font-size: 22px;
     }
     form.order section label{
@@ -300,7 +300,7 @@
         margin-left: 35px;
         font-size: 22px;;
     }
-    form.order p{
+    form.order h2{
         font-size: 18px;
     }
     form.order section label{
