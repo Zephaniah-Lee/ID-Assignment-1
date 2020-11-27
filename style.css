@@ -164,7 +164,30 @@
     aside.resetpassword p a{
         text-decoration: none;
     }
-/* END OF RESET PASSWORD PORTION OF WEBSITE */
+    /* END OF RESET PASSWORD PORTION OF WEBSITE */
+    /* START OF LOGIN PORTION OF WEBSITE */
+    form.login{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-left: 34%;
+        margin-right: 44%;
+        border-bottom: 1px solid grey;
+    }
+    form.login h1{ 
+        text-align: center ;
+    }
+    form.login input[type="submit"]{
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    aside.login{
+        margin-left:34%;
+    }
+    aside.login p a{
+        text-decoration: none;
+    }
+/* END OF LOGIN PORTION OF WEBSITE */
 }
 @media screen and (max-width:600px){
     body{
@@ -336,6 +359,31 @@
     aside.resetpassword p a{
         text-decoration: none;
     }
-}
 /* END OF RESET PASSWORD PORTION OF WEBSITE */
+/* START OF LOGIN PORTION OF WEBSITE */
+    form.login{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left:15%;
+        border-bottom: 1px solid grey;
+    }
+    form.login h1{ 
+        text-align: center ;
+    }
+    form.login input[type="submit"]{
+        width: 45%;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    aside.login{
+        margin-left:15%;
+        font-size: 12px;
+    }
+    aside.login p a{
+        text-decoration: none;
+    }
+}
+/* END OF LOGIN PORTION OF WEBSITE */
 

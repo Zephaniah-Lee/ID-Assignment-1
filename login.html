@@ -5,56 +5,6 @@
     <meta name="viewport" content="width=device-width">
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <style>
-      @media screen and (max-width:1900px){
-        form{
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            margin-left: 34%;
-            margin-right: 44%;
-            border-bottom: 1px solid grey;
-        }
-        h1{ 
-          text-align: center ;
-        }
-        input[type="submit"]{
-          width: 40%;
-          margin-bottom: 20px;
-        }
-        aside{
-          margin-left:34%;
-        }
-        aside p a{
-          text-decoration: none;
-        }
-      }
-      @media screen and (max-width:600px){
-        form{
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            width: 70%;
-            margin-left:15%;
-            border-bottom: 1px solid grey;
-        }
-        h1{ 
-          text-align: center ;
-        }
-        input[type="submit"]{
-          width: 45%;
-          margin-bottom: 20px;
-          font-size: 15px;
-        }
-        aside{
-          margin-left:15%;
-          font-size: 12px;
-        }
-        aside p a{
-          text-decoration: none;
-        }
-      }
-    </style>
   </head>
   <body>
     <nav>
@@ -65,7 +15,7 @@
       </ul>
       <p><a class="home" href="index.html">TESLA</a></p>
     </nav>
-    <form>
+    <form class="login">
       <h1>Login</h1>
       <label for= "email">Email Address</label><br>
       <input type= "email" name= "email" required><br>
@@ -73,10 +23,9 @@
       <input type= "password" name= "password" required><br>
       <input type="submit" value= "Login">
     </form>
-    <aside>
+    <aside class="login">
       <p>Don't have an account? <a href= "signup.html">Sign up</a></p>
       <p>Forgot your password? <a href= "resetpassword.html">Reset Password</a></p>
-
     </aside>
   </body>
 </html>
